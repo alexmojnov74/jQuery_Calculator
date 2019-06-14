@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <title>jQuery Calculator</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/calc.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Caption&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    
+
+</head>
+<body>
+  <div class="jumbotron">
+    <h1 class="display-5">jQuery Calculator</h1>
+  </div>
+
+
+<div class="container">
+     
+  <div class="card">
+          <div class="card-body">
+              <h1 id="first-number"></h1>
+              <h1 id="operator"></h1>
+              <h1 id="second-number"></h1>
+              <h1 id="answer"></h1>
+          </div>
+
+    <div class="calckeys">
+            
+            <button id="plus" class="btn btn-danger operator" value="plus">+</button>
+            <button id="minus" class="btn btn-danger operator" value="minus">&minus;</button>
+            <button id="multiply" class="btn btn-danger operator" value="times">&times;</button>
+            <button id="divide" class="btn btn-danger operator" value="divide"><span>&divide;</button>
+            <button id="equals" class="btn btn-success equal" value="equals"><span>=</button>
+
+
+            
+            <button id="num7" class="btn btn-primary number" value="7">7</button>
+            <button id="num8" class="btn btn-primary number" value="8">8</button>
+            <button id="num9" class="btn btn-primary number" value="9">9</button>
+            
+            
+            
+            <button id="num4" class="btn btn-primary number" value="4">4</button>
+            <button id="num5" class="btn btn-primary number" value="5">5</button>
+            <button id="num6" class="btn btn-primary number" value="6">6</button>
+            
+            
+            
+            <button id="num1" class="btn btn-primary number" value="1">1</button>
+            <button id="num2" class="btn btn-primary number" value="2">2</button>
+            <button id="num3" class="btn btn-primary number" value="3">3</button>
+            
+            
+            
+            <button id="num0" class="btn btn-primary number" value="0">0</button>
+            <button id="power" class="btn btn-danger operator" value="power">^</button>
+            <button id="numC" class="btn btn-danger clear" value="clear">C</button>
+            
+    </div>
+  </div>
+</div>        
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
